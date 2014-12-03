@@ -16,16 +16,6 @@
 		F7C471E51A2E6D3D002BA709 /* flake.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C471E41A2E6D3D002BA709 /* flake.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F7C471D51A2E6B71002BA709 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F7C471B31A2E6B71002BA709 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7C471BA1A2E6B71002BA709;
-			remoteInfo = Snowflakes;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		F7C471BB1A2E6B71002BA709 /* Snowflakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snowflakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C471BF1A2E6B71002BA709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,19 +27,11 @@
 		F7C471C91A2E6B71002BA709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7C471CB1A2E6B71002BA709 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7C471CE1A2E6B71002BA709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F7C471D41A2E6B71002BA709 /* SnowflakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowflakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C471E41A2E6D3D002BA709 /* flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F7C471B81A2E6B71002BA709 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7C471D11A2E6B71002BA709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				F7C471BB1A2E6B71002BA709 /* Snowflakes.app */,
-				F7C471D41A2E6B71002BA709 /* SnowflakesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,24 +102,6 @@
 			productReference = F7C471BB1A2E6B71002BA709 /* Snowflakes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7C471D31A2E6B71002BA709 /* SnowflakesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7C471E11A2E6B71002BA709 /* Build configuration list for PBXNativeTarget "SnowflakesTests" */;
-			buildPhases = (
-				F7C471D01A2E6B71002BA709 /* Sources */,
-				F7C471D11A2E6B71002BA709 /* Frameworks */,
-				F7C471D21A2E6B71002BA709 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7C471D61A2E6B71002BA709 /* PBXTargetDependency */,
-			);
-			name = SnowflakesTests;
-			productName = SnowflakesTests;
-			productReference = F7C471D41A2E6B71002BA709 /* SnowflakesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,10 +113,6 @@
 				TargetAttributes = {
 					F7C471BA1A2E6B71002BA709 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					F7C471D31A2E6B71002BA709 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = F7C471BA1A2E6B71002BA709;
 					};
 				};
 			};
@@ -171,7 +130,6 @@
 			projectRoot = "";
 			targets = (
 				F7C471BA1A2E6B71002BA709 /* Snowflakes */,
-				F7C471D31A2E6B71002BA709 /* SnowflakesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,13 +146,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7C471D21A2E6B71002BA709 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -208,22 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7C471D01A2E6B71002BA709 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F7C471D61A2E6B71002BA709 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F7C471BA1A2E6B71002BA709 /* Snowflakes */;
-			targetProxy = F7C471D51A2E6B71002BA709 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F7C471C81A2E6B71002BA709 /* Main.storyboard */ = {
@@ -345,40 +281,6 @@
 			};
 			name = Release;
 		};
-		F7C471E21A2E6B71002BA709 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SnowflakesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowflakes.app/Snowflakes";
-			};
-			name = Debug;
-		};
-		F7C471E31A2E6B71002BA709 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SnowflakesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowflakes.app/Snowflakes";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,15 +298,6 @@
 			buildConfigurations = (
 				F7C471DF1A2E6B71002BA709 /* Debug */,
 				F7C471E01A2E6B71002BA709 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F7C471E11A2E6B71002BA709 /* Build configuration list for PBXNativeTarget "SnowflakesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7C471E21A2E6B71002BA709 /* Debug */,
-				F7C471E31A2E6B71002BA709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
