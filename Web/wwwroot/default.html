@@ -14,33 +14,12 @@
         }
 
         img {
-            transition: transform 20s;
-            transform: translateY(-600px) scale(0.1);
-            transform: translateY(1289px) scale(0.1);
+            position: absolute;
         }
 
     </style>
 </head>
 <body style="background-color: black">
-    <img src="images/flake.png">
-
-    <script>
-
-        function addSnowflake() {
-            debugger;
-            /*1 - add snowflake element with
-                    - a translation off the top
-                    - a random (but bound) transition duration
-                    - a random (also bound) scale
-             */
-            setTimeout(function () {
-                //2 - on a timeout, set the transform to 
-            });
-
-            setTimeout(addSnowflake, Math.random() * 1000);  //Infinitely add new flakes at a random gap between them
-        }
-
-        addSnowflake();
-    </script>
+    <script src="js/snowflakes.js" type="text/javascript" ></script>
 </body>
 </html>
