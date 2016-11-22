@@ -10,7 +10,7 @@
         var ruleName = "falling" + i;
         var startX = (Math.random() * (window.innerWidth + 100)) - 50;
 
-        var s = 0.15 + (Math.random() * 0.50);
+        var s = 0.15 + (Math.random() * 0.30);
         var rx = Math.random() * 360;
         var rz = Math.random() * 70 - 35;
 
